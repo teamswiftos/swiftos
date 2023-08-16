@@ -129,14 +129,13 @@ zsh
 ### SwiftOS ###
 
 plasma-desktop
-kde-system
+partitionmanager
 plasma-disks
 dolphin
 plasma-meta
 plasma-workspace
 systemsettings
 sddm
-fish
 calamares
 konsole
 os-prober

@@ -108,7 +108,10 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [General]
+BrowserApplication=firefox.desktop
 ColorSchemeHash=3cc2e5a4ca51bfe1bd8b5ae5cb3a03085875613f
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=JetBrainsMono Nerd Font,10,-1,5,87,0,0,0,0,0,Regular
@@ -139,6 +142,9 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=163
 View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
 
 [WM]
 activeBackground=46,52,64
