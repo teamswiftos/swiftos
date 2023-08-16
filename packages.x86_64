@@ -128,6 +128,7 @@ zsh
 
 ### SwiftOS ###
 
+bash
 plasma-desktop
 partitionmanager
 plasma-disks
@@ -139,3 +140,4 @@ sddm
 calamares
 konsole
 os-prober
+plank
