@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  swift
+componentName:  default
 
 
 ### WELCOME / OVERALL WORDING
@@ -122,13 +122,17 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "@{NAME}"
-    shortProductName:    Swift
-    version:             v0.1
-    shortVersion:        v0.1
-    versionedName:       SwiftOS 0.1 Beta
-    shortVersionedName:  SwiftOS 0.1
-    bootloaderEntryName: SwiftOS
-    productUrl:          https://www.natesworks.com
+    shortProductName:    Generic
+    version:             2020.2 LTS
+    shortVersion:        2020.2
+    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
+    shortVersionedName:  FancyGL 2020.2
+    bootloaderEntryName: FancyGL
+    productUrl:          https://calamares.io/
+    supportUrl:          https://github.com/calamares/calamares/wiki
+    knownIssuesUrl:      https://github.com/calamares/calamares/issues
+    releaseNotesUrl:     https://calamares.io/news/
+    donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
 #
@@ -159,10 +163,10 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    # productIcon:         "swift.png"
-    productLogo:         "swift.png"
+    productIcon:         "squid.png"
+    productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
-    # productWelcome:      "languages.png"
+    productWelcome:      "languages.png"
 
 # Colors for text and background components.
 #
@@ -176,10 +180,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#2E3440"
-   sidebarText:          "#ECEFF4"
-   sidebarTextSelect:    "#A3BE8C"
-   sidebarTextHighlight: "#3B4252"
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
 
 ### SLIDESHOW
 #
@@ -198,7 +202,8 @@ style:
 # To configure a QML file, list a single filename:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
-# slideshow: [ "banner.png"]
+#   slideshow: [ "/etc/calamares/slideshow/0.png", "/etc/logo.png" ]
+slideshow:               "show.qml"
 
 # There are two available APIs for a QML slideshow:
 #  - 1 (the default) loads the entire slideshow when the installation-
