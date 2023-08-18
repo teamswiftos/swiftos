@@ -132,7 +132,6 @@ bash
 plasma-desktop
 partitionmanager
 plasma-disks
-dolphin
 plasma-meta
 plasma-workspace
 systemsettings
@@ -142,3 +141,4 @@ konsole
 os-prober
 plank
 krusader
+librewolf
