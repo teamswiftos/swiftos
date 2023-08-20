@@ -37,7 +37,6 @@ gpart
 gpm
 gptfdisk
 grml-zsh-config
-grub
 hdparm
 hyperv
 intel-ucode
@@ -136,9 +135,9 @@ plasma-meta
 plasma-workspace
 systemsettings
 sddm
-calamares
 konsole
 os-prober
 plank
 krusader
-librewolf
+firefox
+calamares
