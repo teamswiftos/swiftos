@@ -128,16 +128,16 @@ zsh
 ### SwiftOS ###
 
 bash
-plasma-desktop
+calamares
+firefox
+konsole
+krusader
+os-prober
 partitionmanager
+plank
+plasma-desktop
 plasma-disks
 plasma-meta
 plasma-workspace
-systemsettings
 sddm
-konsole
-os-prober
-plank
-krusader
-firefox
-calamares
+systemsettings
