@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+  <bookmark href="file:///home/natesworks/birdygui" added="2023-08-21T10:05:43.638494Z" modified="2023-08-21T10:05:43.638496Z" visited="2023-08-21T10:05:43.638495Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="'electron %u'" modified="2023-08-21T10:05:43.638495Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://github.com/login/device" added="2023-08-21T10:06:00.268000Z" modified="2023-08-21T10:06:00.268000Z" visited="2023-08-21T10:06:00.268000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T10:06:00.268000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Pictures/2023-08-21_10-11.png" added="2023-08-21T10:11:16.677000Z" modified="2023-08-21T10:11:21.370000Z" visited="2023-08-21T10:11:21.370000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="flameshot" exec="flameshot %u" modified="2023-08-21T10:11:16.677000Z" count="1"/>
+          <bookmark:application name="lookandfeelexplorer" exec="lookandfeelexplorer %u" modified="2023-08-21T10:11:21.370000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/swiftos" added="2023-08-21T10:12:12.244165Z" modified="2023-08-21T10:12:12.244168Z" visited="2023-08-21T10:12:12.244166Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="'electron %u'" modified="2023-08-21T10:12:12.244167Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/swiftos/airootfs/etc/skel/.config" added="2023-08-21T10:12:31.566000Z" modified="2023-08-21T10:12:31.566000Z" visited="2023-08-21T10:12:31.566000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-21T10:12:31.566000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

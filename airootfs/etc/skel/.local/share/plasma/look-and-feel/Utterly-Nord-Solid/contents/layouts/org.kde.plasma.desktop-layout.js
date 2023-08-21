@@ -20,7 +20,8 @@ var layout = {
                 },
                 "/General": {
                     "ToolBoxButtonState": "topcenter",
-                    "ToolBoxButtonX": "505"
+                    "ToolBoxButtonX": "444",
+                    "ToolBoxButtonY": "26"
                 },
                 "/Wallpaper/org.kde.image/General": {
                     "Image": "/usr/share/wallpapers/Altai/",
@@ -101,21 +102,6 @@ var layout = {
                 },
                 {
                     "config": {
-                    },
-                    "plugin": "org.kde.plasma.marginsseparator"
-                },
-                {
-                    "config": {
-                    },
-                    "plugin": "org.kde.plasma.marginsseparator"
-                },
-                {
-                    "config": {
-                    },
-                    "plugin": "org.kde.plasma.panelspacer"
-                },
-                {
-                    "config": {
                         "/Appearance": {
                             "customDateFormat": "ddd d MMM",
                             "dateDisplayFormat": "BesideTime",
@@ -130,6 +116,11 @@ var layout = {
                 },
                 {
                     "config": {
+                    },
+                    "plugin": "org.kde.plasma.panelspacer"
+                },
+                {
+                    "config": {
                         "/General": {
                             "swapDownUp": "true"
                         }
@@ -139,7 +130,7 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "PreloadWeight": "80"
+                            "PreloadWeight": "85"
                         }
                     },
                     "plugin": "org.kde.plasma.systemtray"
@@ -159,7 +150,7 @@ var layout = {
             },
             "height": 1.4444444444444444,
             "hiding": "normal",
-            "location": "bottom",
+            "location": "top",
             "maximumLength": 106.66666666666667,
             "minimumLength": 106.66666666666667,
             "offset": 0

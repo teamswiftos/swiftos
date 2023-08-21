@@ -1,0 +1,5 @@
+[PlasmaRunnerManager]
+LaunchCounts=1 krunner_systemsettings_kcm_nightcolor,1 exec:///usr/bin/code-oss --unity-launch,2 exec:///usr/bin/lookandfeelexplorer,1 exec:///usr/bin/plank,2 krunner_systemsettings_kcm_lookandfeel,1 exec:///usr/bin/plasmathemeexplorer
+
+[PlasmaRunnerManager][History]
+7df2cbc0-5e30-4584-b4f8-b541de1b7a2b=code,glob,global,theme exp,theme ex,plank,dark

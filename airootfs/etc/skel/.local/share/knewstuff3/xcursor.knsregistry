@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="107">
+  <name>Nordic cursors</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1662218</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>76</rating>
+  <downloads>150811</downloads>
+  <installedfile>/home/natesworks/.icons/Nordic-cursors/*</installedfile>
+  <id>1662218</id>
+  <releasedate>2021-12-09</releasedate>
+  <summary>Cursors theme created using the awesome &lt;a href="https://github.com/arcticicestudio/nord" target="_blank" rel="nofollow">Nord&lt;/a> color palette.&lt;br />
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1662218/1ff6e2cb74570d61fdcc5739faab69fbe5cd5f982adc440e5e6ff91d8ffe967666df1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1662218/1ff6e2cb74570d61fdcc5739faab69fbe5cd5f982adc440e5e6ff91d8ffe967666df1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MzkwODYwOTUiLCJvIjoiMSIsInMiOiI4NzlmZTAwOWRiNmQ0M2UwYTk3Njk5ZDQ5ZjdlNGU5Zjg5Yzk1ODdmMTcxNTdlZmM1Y2Q4YTk2MDExZTlhZTAxMjA3YTE4MmEwMGMyMmFlMDU3OTVhNjk4MzVlMTM1YTM3Mjc2YzNmZTc5MzNlNzkzZjA1NDhkNDI1YTMyNDk5MCIsInQiOjE2OTI2MTU1NjksInN0ZnAiOm51bGwsInN0aXAiOiI1LjE3My4yMS4zIn0.UEif5ZilBwFuYztIi-bBKHvtgvN2Tlaa1Lf7wlrrbHQ/Nordic-cursors.tar.xz</payload>
+  <tags>linux,unix,gplv3,cursor</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
