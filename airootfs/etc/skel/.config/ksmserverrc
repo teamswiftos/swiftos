@@ -1,2 +1,31 @@
 [$Version]
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=plank
+count=1
+
+[Session: saved at previous logout]
+clientId1=10e7e6dc66000169263058400000008240004
+clientId2=10e7e6dc66000169263058500000008240006
+clientId3=10e7e6dc66000169263246100000008240032
+clientId4=10e7e6dc66000169263342600000008240035
+count=4
+discardCommand4[$e]=rm,$HOME/.config/session/krusader_10e7e6dc66000169263342600000008240035_1692633557_156371
+program1=/usr/lib/DiscoverNotifier
+program2=pulseaudio
+program3=firefox
+program4=/usr/bin/krusader
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10e7e6dc66000169263058400000008240004_1692633557_156526
+restartCommand2=
+restartCommand3=/usr/lib/firefox/firefox,--sm-client-id,10e7e6dc66000169263246100000008240032
+restartCommand4=/usr/bin/krusader,-session,10e7e6dc66000169263342600000008240035_1692633557_156371
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=natesworks
+userId2=natesworks
+userId3=natesworks
+userId4=natesworks

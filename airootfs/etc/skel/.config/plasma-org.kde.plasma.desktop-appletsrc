@@ -23,11 +23,11 @@ DialogWidth=720
 
 [Containments][110][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=444
+ToolBoxButtonX=578
 ToolBoxButtonY=26
 
 [Containments][110][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Altai/
+Image=/usr/share/wallpapers/Flow/
 SlidePaths=/home/natesworks/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][111]
@@ -100,6 +100,11 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][111][Applets][120][Configuration]
+PreloadWeight=60
+popupHeight=450
+popupWidth=810
+
 [Containments][111][Applets][120][Configuration][Appearance]
 customDateFormat=ddd d MMM
 dateDisplayFormat=BesideTime
@@ -113,19 +118,12 @@ use24hFormat=0
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
-[Containments][111][Applets][122]
-immutability=1
-plugin=org.kde.netspeedWidget
-
-[Containments][111][Applets][122][Configuration][General]
-swapDownUp=true
-
 [Containments][111][Applets][123]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][111][Applets][123][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 SystrayContainmentId=124
 
 [Containments][111][ConfigDialog]
@@ -133,7 +131,7 @@ DialogHeight=74
 DialogWidth=1920
 
 [Containments][111][General]
-AppletOrder=112;113;114;115;116;117;118;119;120;121;122;123
+AppletOrder=112;113;114;115;116;117;118;119;120;121;123
 
 [Containments][124]
 activityId=
@@ -142,6 +140,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][124][Applets][125]
@@ -151,6 +151,9 @@ plugin=org.kde.plasma.clipboard
 [Containments][124][Applets][126]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][124][Applets][126][Configuration]
+PreloadWeight=60
 
 [Containments][124][Applets][127]
 immutability=1
@@ -176,6 +179,9 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][124][Applets][132][Configuration]
+PreloadWeight=100
+
 [Containments][124][Applets][132][Configuration][General]
 migrated=true
 
@@ -190,6 +196,16 @@ plugin=org.kde.plasma.nightcolorcontrol
 [Containments][124][Applets][135]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][124][Applets][135][Configuration]
+PreloadWeight=65
+
+[Containments][124][Applets][136]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][124][Applets][136][Configuration]
+PreloadWeight=23
 
 [Containments][124][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault

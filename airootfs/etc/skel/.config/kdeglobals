@@ -115,10 +115,10 @@ TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=JetBrainsMono Nerd Font,10,-1,5,87,0,0,0,0,0,Regular
-font=JetBrainsMono Nerd Font,10,-1,5,87,0,0,0,0,0,Regular
-menuFont=JetBrainsMono Nerd Font,10,-1,5,87,0,0,0,0,0,Regular
-smallestReadableFont=JetBrainsMono Nerd Font,8,-1,5,87,0,0,0,0,0,Regular
-toolBarFont=JetBrainsMono Nerd Font,10,-1,5,87,0,0,0,0,0,Regular
+font=Roboto,10,-1,5,87,0,0,0,0,0,Regular
+menuFont=Roboto,10,-1,5,87,0,0,0,0,0,Regular
+smallestReadableFont=Roboto,8,-1,5,87,0,0,0,0,0,Regular
+toolBarFont=Roboto,10,-1,5,87,0,0,0,0,0,Regular
 
 [KDE]
 LookAndFeelPackage=Utterly-Nord-Solid
@@ -149,7 +149,7 @@ Dialog Size=600,480
 [WM]
 activeBackground=46,52,64
 activeBlend=46,52,64
-activeFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+activeFont=Roboto,10,-1,5,50,0,0,0,0,0
 activeForeground=236,239,244
 inactiveBackground=46,52,64
 inactiveBlend=46,52,64

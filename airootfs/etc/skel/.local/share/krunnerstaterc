@@ -1,5 +1,5 @@
 [PlasmaRunnerManager]
-LaunchCounts=1 krunner_systemsettings_kcm_nightcolor,1 exec:///usr/bin/code-oss --unity-launch,2 exec:///usr/bin/lookandfeelexplorer,1 exec:///usr/bin/plank,2 krunner_systemsettings_kcm_lookandfeel,1 exec:///usr/bin/plasmathemeexplorer
+LaunchCounts=1 exec://,2 appstream_com.obsproject.Studio,2 krunner_systemsettings_kcm_lookandfeel,4 exec:///usr/bin/obs,1 krunner_systemsettings_kcm_nightcolor,3 exec:///usr/bin/razergenie,1 exec:///usr/bin/flameshot,2 appstream_org.kde.apper.desktop,3 exec:///usr/bin/discord,2 appstream_razercfg.desktop,1 exec:///usr/bin/modrinth-app,1 krunner_systemsettings_kcm_users,1 exec:///usr/bin/nvidia-settings,2 exec:///usr/bin/code-oss --unity-launch,3 exec:///usr/bin/spotify --uri=,1 krunner_systemsettings_kcm_sddm,2 exec:///usr/bin/plank,1 krunner_systemsettings_kcm_fontinst,1 appstream_org.gnome.TwentyFortyEight,1 exec:///usr/bin/kmenuedit,1 krunner_systemsettings_kcm_autostart,4 exec:///usr/bin/birdygui,2 exec:///usr/bin/lookandfeelexplorer,3 exec:///usr/bin/virt-manager,1 exec:///usr/bin/plasmathemeexplorer
 
 [PlasmaRunnerManager][History]
-7df2cbc0-5e30-4584-b4f8-b541de1b7a2b=code,glob,global,theme exp,theme ex,plank,dark
+7df2cbc0-5e30-4584-b4f8-b541de1b7a2b=razer,raze,spotif,obs,discord,packa,apper,fo,disc,pack,packag,o,flame,launcher,spoti,setti,modr,users,virt,autos,plank,login,code,glob,global,theme exp,theme ex,dark

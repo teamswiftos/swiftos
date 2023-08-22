@@ -1,3 +1,12 @@
+[KFileDialog Settings]
+Recent Files[$e]=swiftos.png,file:$HOME/Pictures/swiftos.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=529
+1920x1080 screen: Width=410
+
 [PlasmaTransientsConfig]
 PreloadWeight=0
 

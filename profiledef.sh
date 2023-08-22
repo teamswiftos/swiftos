@@ -4,9 +4,9 @@
 iso_name="swiftos"
 iso_label="SWIFTOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Natesworks <https://www.natesworks.com>"
-iso_application="SwiftOS Live/Rescue CD"
+iso_application="SwiftOS Installer/Rescue CD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
-install_dir="arch"
+install_dir="swift"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'

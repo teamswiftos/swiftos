@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xbel version="1.0" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
-  <bookmark href="file:///home/natesworks/birdygui" added="2023-08-21T10:05:43.638494Z" modified="2023-08-21T10:05:43.638496Z" visited="2023-08-21T10:05:43.638495Z">
+  <bookmark href="file:///home/natesworks/birdygui" added="2023-08-21T10:05:43.638494Z" modified="2023-08-21T15:05:36.558800Z" visited="2023-08-21T10:05:43.638495Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="electron" exec="'electron %u'" modified="2023-08-21T10:05:43.638495Z" count="1"/>
+          <bookmark:application name="electron" exec="'electron %u'" modified="2023-08-21T15:05:36.558799Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -50,6 +50,323 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="" exec="dolphin %u" modified="2023-08-21T10:12:31.566000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/swiftos/airootfs/etc/skel/.config/user-dirs.dirs" added="2023-08-21T10:13:06.032000Z" modified="2023-08-21T10:13:06.032000Z" visited="2023-08-21T10:13:06.032000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2023-08-21T10:13:06.032000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/swiftos/out/swiftos-2023.08.21-x86_64.iso" added="2023-08-21T10:28:15.545645Z" modified="2023-08-21T10:28:15.545648Z" visited="2023-08-21T10:28:15.545646Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="'virt-manager %u'" modified="2023-08-21T10:28:15.545646Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.gnome.twentyfortyeight" added="2023-08-21T14:41:16.831000Z" modified="2023-08-21T14:41:16.831000Z" visited="2023-08-21T14:41:16.831000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %U %u" modified="2023-08-21T14:41:16.831000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://com.obsproject.studio" added="2023-08-21T14:41:21.029000Z" modified="2023-08-21T14:41:35.323000Z" visited="2023-08-21T14:41:35.323000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %U %u" modified="2023-08-21T14:41:35.323000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/Modrinth%20App_0.5.3_x64_en-US.msi" added="2023-08-21T14:47:11.107657Z" modified="2023-08-21T14:47:11.107661Z" visited="2023-08-21T14:47:11.107658Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msi"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-21T14:47:11.107659Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/2023-08-21%2014-44-22.mkv" added="2023-08-21T14:50:16.413000Z" modified="2023-08-21T14:50:16.413000Z" visited="2023-08-21T14:50:16.413000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:groups>
+          <bookmark:group>Video</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="vlc" exec="/usr/bin/vlc --started-from-file %U %u" modified="2023-08-21T14:50:16.413000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/hostname" added="2023-08-21T14:50:50.950000Z" modified="2023-08-21T14:50:53.184000Z" visited="2023-08-21T14:50:53.184000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2023-08-21T14:50:53.184000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://api.modrinth.com/v2/auth/minecraft/init?id=QM5jZP8M4COEScvhzooVQ51h8cnMqi7M" added="2023-08-21T14:52:49.865000Z" modified="2023-08-21T14:52:49.865000Z" visited="2023-08-21T14:52:49.865000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T14:52:49.865000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://api.modrinth.com/v2/auth/minecraft/init?id=ZSOPUpLs8Eobs5rdJErsM0ntwa3Gt2Vg" added="2023-08-21T14:52:51.682000Z" modified="2023-08-21T14:52:51.682000Z" visited="2023-08-21T14:52:51.682000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T14:52:51.682000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://api.modrinth.com/v2/auth/minecraft/init?id=Q5W2t9qzYocLRtH1lXrbJHTnU78Aa4sa" added="2023-08-21T14:52:56.272000Z" modified="2023-08-21T14:52:56.272000Z" visited="2023-08-21T14:52:56.272000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T14:52:56.272000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://discord.com/users/615331393689485330" added="2023-08-21T15:04:57.101000Z" modified="2023-08-21T15:04:57.101000Z" visited="2023-08-21T15:04:57.101000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T15:04:57.101000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://discordstatus.com/" added="2023-08-21T15:19:44.327000Z" modified="2023-08-21T15:19:44.327000Z" visited="2023-08-21T15:19:44.327000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T15:19:44.327000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://accounts.spotify.com/authorize?response_type=code&amp;client_id=0f78f47360a748f09a66bbfb400cafa0&amp;redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Fconnections%2Fspotify%2Fcallback&amp;scope=user-read-private+user-read-playback-state+user-modify-playback-state+user-read-currently-playing&amp;state=493e0dfe68c78f1894fc2031652c973b" added="2023-08-21T15:20:01.741000Z" modified="2023-08-21T15:20:01.741000Z" visited="2023-08-21T15:20:01.741000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2023-08-21T15:20:01.741000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/2023-08-21%2015-19-17.mkv" added="2023-08-21T15:20:26.517262Z" modified="2023-08-21T15:20:26.517264Z" visited="2023-08-21T15:20:26.517262Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="'discord %u'" modified="2023-08-21T15:20:26.517263Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.kde.apper.desktop" added="2023-08-21T15:24:21.597000Z" modified="2023-08-21T15:26:20.008000Z" visited="2023-08-21T15:26:20.008000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %U %u" modified="2023-08-21T15:26:20.008000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/25b3cc4161754ff9a820f975542e116e.webp" added="2023-08-21T15:36:02.523949Z" modified="2023-08-21T15:36:17.140339Z" visited="2023-08-21T15:36:02.523949Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-21T15:36:17.140337Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/25b3cc4161754ff9a820f975542e116e.png" added="2023-08-21T15:36:24.295920Z" modified="2023-08-21T15:36:44.109956Z" visited="2023-08-21T15:36:26.639000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-21T15:36:44.109955Z" count="2"/>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-21T15:36:26.639000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/25b3cc4161754ff9a820f975542e116e(1).png" added="2023-08-21T15:36:59.445128Z" modified="2023-08-21T15:40:43.109794Z" visited="2023-08-21T15:37:04.517000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-21T15:36:59.445131Z" count="1"/>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-21T15:37:01.868000Z" count="1"/>
+          <bookmark:application name="gimp" exec="gimp-2.10 %U %u" modified="2023-08-21T15:37:04.517000Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-21T15:40:43.109793Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/birdy.webp" added="2023-08-21T15:46:24.460245Z" modified="2023-08-21T15:52:39.380135Z" visited="2023-08-21T15:46:24.460246Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-21T15:52:39.380132Z" count="4"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-21T15:49:59.395981Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/birdy.png" added="2023-08-21T15:53:00.297667Z" modified="2023-08-21T15:59:09.916607Z" visited="2023-08-21T15:53:00.297668Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-21T15:53:27.028512Z" count="2"/>
+          <bookmark:application name="discord" exec="'discord %u'" modified="2023-08-21T15:59:09.916605Z" count="5"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-21T15:58:19.591594Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/swiftos" added="2023-08-22T08:36:25.465202Z" modified="2023-08-22T08:36:29.694011Z" visited="2023-08-22T08:36:25.465203Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-22T08:36:25.774185Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-22T08:36:29.694009Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Pictures/swiftos.png" added="2023-08-22T08:38:08.161887Z" modified="2023-08-22T09:12:36.475000Z" visited="2023-08-22T09:12:36.475000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-22T08:46:14.512489Z" count="3"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-22T08:38:30.357149Z" count="1"/>
+        <bookmark:application name="org.kde.plasmashell" exec="/usr/bin/plasmashell %u" modified="2023-08-22T09:12:36.475000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/swiftos-removebg-preview.png" added="2023-08-22T08:39:37.233885Z" modified="2023-08-22T08:39:41.740058Z" visited="2023-08-22T08:39:40.523000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-22T08:39:37.233887Z" count="1"/>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-22T08:39:39.067000Z" count="1"/>
+          <bookmark:application name="gimp" exec="gimp-2.10 %U %u" modified="2023-08-22T08:39:40.523000Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-22T08:39:41.740056Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Pictures/swiftos-nobg.png" added="2023-08-22T08:40:01.353192Z" modified="2023-08-22T08:40:09.417403Z" visited="2023-08-22T08:40:01.353193Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-22T08:40:01.353195Z" count="1"/>
+          <bookmark:application name="discord" exec="'discord %u'" modified="2023-08-22T08:40:09.417402Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Downloads/swiftos-removebg.png" added="2023-08-22T08:40:44.186567Z" modified="2023-08-22T08:40:47.136000Z" visited="2023-08-22T08:40:47.136000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-22T08:40:44.186569Z" count="1"/>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-22T08:40:47.136000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Pictures/swiftos-removebg.png" added="2023-08-22T08:40:58.623069Z" modified="2023-08-22T08:46:33.638607Z" visited="2023-08-22T08:40:58.623070Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="'discord %u'" modified="2023-08-22T08:40:58.623070Z" count="1"/>
+          <bookmark:application name="Firefox" exec="'firefox %u'" modified="2023-08-22T08:46:33.638603Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://razercfg.desktop" added="2023-08-22T09:02:12.420000Z" modified="2023-08-22T09:02:51.874000Z" visited="2023-08-22T09:02:51.874000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %U %u" modified="2023-08-22T09:02:51.874000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/swiftos/airootfs/etc/skel" added="2023-08-22T09:14:47.432000Z" modified="2023-08-22T09:14:47.432000Z" visited="2023-08-22T09:14:47.432000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-22T09:14:47.432000Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
