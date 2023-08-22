@@ -129,6 +129,7 @@ zsh
 
 bash
 calamares
+customtkinter
 konsole
 krusader
 librewolf
@@ -141,3 +142,4 @@ plasma-meta
 plasma-workspace
 sddm
 systemsettings
+tk

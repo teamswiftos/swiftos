@@ -1,0 +1,114 @@
+#!/usr/bin/env python3
+import tkinter
+import customtkinter
+import os
+
+customtkinter.set_default_color_theme("blue")
+
+def create_config_dir_and_file():
+    os.makedirs(os.path.expanduser("~/.config/birdygui"), exist_ok=True)
+    with open(os.path.expanduser("~/.config/birdygui/user.preferences"), "w") as f:
+        f.write("APPEARANCE_MODE=System\nUI_SCALING=100")
+
+def read_config():
+    if not os.path.exists(os.path.expanduser("~/.config/birdygui/user.preferences")):
+        create_config_dir_and_file()
+
+    appearance_mode = "System"
+    ui_scaling = 100
+
+    with open(os.path.expanduser("~/.config/birdygui/user.preferences"), "r") as f:
+        lines = f.readlines()
+        for line in lines:
+            key, value = line.strip().split("=")
+            if key == "APPEARANCE_MODE":
+                appearance_mode = value
+            elif key == "UI_SCALING":
+                ui_scaling = int(value)
+
+    return appearance_mode, ui_scaling
+
+class App(customtkinter.CTk):
+    def __init__(self):
+        super().__init__()
+
+        self.title("Package Manager")
+        self.geometry(f"{1100}x{580}")
+
+        self.grid_columnconfigure(1, weight=1)
+        self.grid_columnconfigure((2, 3), weight=0)
+        self.grid_rowconfigure((0, 1, 2), weight=1)
+
+        self.sidebar_frame = customtkinter.CTkFrame(self, width=140, corner_radius=0)
+        self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
+        self.sidebar_frame.grid_rowconfigure(4, weight=1)
+        self.logo_label = customtkinter.CTkLabel(self.sidebar_frame, text="Birdy-GUI", font=customtkinter.CTkFont(size=20, weight="bold"))
+        self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
+        self.install_button = customtkinter.CTkButton(self.sidebar_frame, text="Install", command=self.sidebar_button_event)
+        self.install_button.grid(row=1, column=0, padx=20, pady=10)
+        self.upgrade_button = customtkinter.CTkButton(self.sidebar_frame, text="Upgrade", command=self.sidebar_button_event)
+        self.upgrade_button.grid(row=2, column=0, padx=20, pady=10)
+        self.remove_button = customtkinter.CTkButton(self.sidebar_frame, text="Remove", command=self.sidebar_button_event)
+        self.remove_button.grid(row=3, column=0, padx=20, pady=10)
+        self.appearance_mode_label = customtkinter.CTkLabel(self.sidebar_frame, text="Appearance Mode:", anchor="w")
+        self.appearance_mode_label.grid(row=5, column=0, padx=20, pady=(10, 0))
+        appearance_mode, ui_scaling = read_config()
+
+        self.appearance_mode = customtkinter.StringVar(value=appearance_mode)
+        self.ui_scaling = customtkinter.StringVar(value=f"{ui_scaling}%")
+
+        self.appearance_mode_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame, values=["Light", "Dark", "System"],
+                                                                       command=self.change_appearance_mode_event)
+        self.appearance_mode_optionemenu.grid(row=6, column=0, padx=20, pady=(10, 10))
+
+        self.scaling_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame, values=["80%", "90%", "100%", "110%", "120%"],
+                                                               command=self.change_scaling_event)
+        self.scaling_optionemenu.grid(row=8, column=0, padx=20, pady=(10, 20))
+
+        self.set_initial_values()
+
+    def set_initial_values(self):
+        appearance_mode, ui_scaling = read_config()
+        
+        self.appearance_mode.set(appearance_mode)
+        self.appearance_mode_optionemenu.set(appearance_mode)
+        self.change_appearance_mode_event(appearance_mode)
+
+        ui_scaling_value = f"{ui_scaling}%"
+        self.ui_scaling.set(ui_scaling_value)
+        self.scaling_optionemenu.set(ui_scaling_value)
+        self.change_scaling_event(ui_scaling_value)
+
+    def change_appearance_mode_event(self, new_appearance_mode: str):
+        customtkinter.set_appearance_mode(new_appearance_mode)
+        with open(os.path.expanduser("~/.config/birdygui/user.preferences"), "r+") as f:
+            lines = f.readlines()
+            f.seek(0)
+            for idx, line in enumerate(lines):
+                key, value = line.strip().split("=")
+                if key == "APPEARANCE_MODE":
+                    lines[idx] = f"{key}={new_appearance_mode}\n"
+            f.seek(0)
+            f.writelines(lines)
+            f.truncate()
+
+    def change_scaling_event(self, new_scaling: str):
+        new_scaling_value = new_scaling.replace("%", "")
+        customtkinter.set_widget_scaling(float(new_scaling_value) / 100)
+        with open(os.path.expanduser("~/.config/birdygui/user.preferences"), "r+") as f:
+            lines = f.readlines()
+            f.seek(0)
+            for idx, line in enumerate(lines):
+                key, value = line.strip().split("=")
+                if key == "UI_SCALING":
+                    lines[idx] = f"{key}={new_scaling_value}\n"
+            f.seek(0)
+            f.writelines(lines)
+            f.truncate()
+    
+    def sidebar_button_event(self):
+        print("sidebar_button click")
+
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
