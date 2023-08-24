@@ -1,18 +1,21 @@
 [KFileDialog Settings]
-Recent Files[$e]=swiftos.png,file:$HOME/Pictures/swiftos.png
-Recent URLs[$e]=file:$HOME/Pictures/
+Recent Files[$e]=swiftos.png,file:$HOME/Pictures/wallpaper.jpg
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=529
-1920x1080 screen: Width=410
+1920x1080 screen: Height=520
+1920x1080 screen: Width=404
 
 [PlasmaTransientsConfig]
 PreloadWeight=0
 
+[PlasmaViews][Panel 111]
+floating=0
+
 [PlasmaViews][Panel 111][Defaults]
 offset=0
-thickness=26
+thickness=32
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44

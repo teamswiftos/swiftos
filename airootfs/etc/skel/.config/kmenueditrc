@@ -1,10 +1,15 @@
 [General]
-SplitterSizes=462,633
+SplitterSizes=449,615
+
+[KFileDialog Settings]
+Recent Files[$e]=birdygui2-removebg-preview.png,file:///usr/share/pixmaps/birdygui.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:///usr/share/pixmaps/
+detailViewIconSize=16
 
 [MainWindow]
-1920x1080 screen: XPosition=407
-1920x1080 screen: YPosition=370
+1920x1080 screen: XPosition=420
+1920x1080 screen: YPosition=324
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABFIAAAFWAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABDMAAAFRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
