@@ -1,1 +1,3 @@
-sudo rm -rf /home/natesworks/swiftos/out && sudo rm -rf /home/natesworks/swiftos/work && sudo mkarchiso -v -w /home/natesworks/swiftos/work -o /home/natesworks/swiftos/out /home/natesworks/swiftos
+sudo rm -rf ./out && sudo rm -rf ./work
+sudo mkarchiso -v -w ./work -o ./out /home/natesworks/swiftos
+sudo rm -rf ./work
