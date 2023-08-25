@@ -882,7 +882,49 @@
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="'LibreWolf %u'" modified="2023-08-24T13:56:56.044884Z" count="1"/>
           <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2023-08-24T13:57:00.530674Z" count="1"/>
-        <bookmark:application name="org.kde.plasmashell" exec="/usr/bin/plasmashell %u" modified="2023-08-24T13:57:05.845000Z" count="1"/>
+          <bookmark:application name="org.kde.plasmashell" exec="/usr/bin/plasmashell %u" modified="2023-08-24T13:57:05.845000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/swiftos/out/swiftos-2023.08.24-x86_64.iso" added="2023-08-24T14:12:03.657398Z" modified="2023-08-24T14:12:03.657401Z" visited="2023-08-24T14:12:03.657399Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="'virt-manager %u'" modified="2023-08-24T14:12:03.657400Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/clouduinuke" added="2023-08-24T14:22:31.752968Z" modified="2023-08-24T14:22:31.752971Z" visited="2023-08-24T14:22:31.752968Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="'electron %u'" modified="2023-08-24T14:22:31.752969Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/Pictures/Zero-attacker-Zero-attacker.zip" added="2023-08-24T14:25:06.924380Z" modified="2023-08-24T14:25:27.168000Z" visited="2023-08-24T14:25:27.168000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="'LibreWolf %u'" modified="2023-08-24T14:25:06.924383Z" count="1"/>
+        <bookmark:application name="" exec="dolphin %u" modified="2023-08-24T14:25:26.151000Z" count="1"/>
+        <bookmark:application name="org.kde.ark" exec="ark %U %u" modified="2023-08-24T14:25:27.168000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/natesworks/clouduinuke/f" added="2023-08-24T14:25:45.837000Z" modified="2023-08-24T14:25:45.837000Z" visited="2023-08-24T14:25:45.837000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="" exec="dolphin %u" modified="2023-08-24T14:25:45.837000Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -1,46 +1,169 @@
-var panel = new Panel
-var panelScreen = panel.screen
+var plasma = getApiVersion(1);
 
-panel.location = "top"
-panel.height = 2 * Math.floor(gridUnit * 13 / 18)
-panel.width = screenGeometry(panelScreen).width
-
-panel.addWidget("org.kde.plasma.simplekickoff")
-panel.addWidget("org.kde.plasma.marginsseparator")
-panel.addWidget("org.kde.windowbuttons")
-panel.addWidget("org.kde.plasma.marginsseparator")
-panel.addWidget("org.kde.windowtitle")
-panel.addWidget("org.kde.plasma.marginsseparator")
-panel.addWidget("org.kde.plasma.appmenu")
-panel.addWidget("org.kde.plasma.panelspacer")
-panel.addWidget("org.kde.plasma.marginsseparator")
-panel.addWidget("org.kde.plasma.digitalclock")
-panel.addWidget("org.kde.plasma.marginsseparator")
-panel.addWidget("org.kde.plasma.panelspacer")
-panel.addWidget("org.kde.netspeedWidget")
-panel.addWidget("org.kde.plasma.systemtray")
-
-var dock = new Panel
-dock.location = "bottom"
-dock.height = 2 * Math.floor(gridUnit * 3 / 2)
-dock.hiding = "autohide"
-dock.minimumLength = 2 * Math.floor(gridUnit * 4)
-dock.alignment = "center"
-dock.offset = 0
-
-dock.addWidget("org.kde.plasma.betterkickerdash")
-dock.addWidget("org.kde.plasma.icontasks")
-
-var downloads = dock.addWidget("org.kde.plasma.folder")
-downloads.currentConfigGroup = ["General"]
-downloads.writeConfig("labelMode","3")
-downloads.writeConfig("labelText","Downloads")
-downloads.writeConfig("url",`${userDataPath("downloads")}`)
-
-dock.addWidget("org.kde.plasma.trash")
-
-var desktopsArray = desktopsForActivity(currentActivity());
-for( var j = 0; j < desktopsArray.length; j++) {
-    desktopsArray[j].wallpaperPlugin = 'org.kde.image';
-    var analogclock = desktopsArray[j].addWidget("org.kde.plasma.analogclock", gridUnit * 33, gridUnit * 2, gridUnit * 10, gridUnit * 10);
+var layout = {
+    "desktops": [
+        {
+            "applets": [
+            ],
+            "config": {
+                "/": {
+                    "ItemGeometries-1920x1080": "",
+                    "ItemGeometriesHorizontal": "",
+                    "formfactor": "0",
+                    "immutability": "1",
+                    "lastScreen": "0",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/ConfigDialog": {
+                    "DialogHeight": "540",
+                    "DialogWidth": "720"
+                },
+                "/General": {
+                    "ToolBoxButtonState": "topcenter",
+                    "ToolBoxButtonX": "578",
+                    "ToolBoxButtonY": "26",
+                    "positions": "{\"1920x1080\":[]}",
+                    "sortMode": "-1"
+                },
+                "/Wallpaper/org.kde.image/General": {
+                    "Image": "/home/natesworks/Pictures/wallpaper.jpg",
+                    "SlidePaths": "/home/natesworks/.local/share/wallpapers/,/usr/share/wallpapers/"
+                }
+            },
+            "wallpaperPlugin": "org.kde.image"
+        }
+    ],
+    "panels": [
+        {
+            "alignment": "left",
+            "applets": [
+                {
+                    "config": {
+                        "/": {
+                            "PreloadWeight": "100",
+                            "popupHeight": "493",
+                            "popupWidth": "663"
+                        },
+                        "/ConfigDialog": {
+                            "DialogHeight": "510",
+                            "DialogWidth": "680"
+                        },
+                        "/General": {
+                            "alphaSort": "true",
+                            "favoritesPortedToKAstats": "true",
+                            "systemFavorites": "suspend\\,hibernate\\,reboot\\,shutdown"
+                        },
+                        "/Shortcuts": {
+                            "global": "Alt+F1"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.simplekickoff"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.appmenu"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.marginsseparator"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "PreloadWeight": "85"
+                        },
+                        "/General": {
+                            "buttonSizePercentage": "70",
+                            "containmentType": "Plasma",
+                            "inactiveStateEnabled": "true",
+                            "visibility": "ActiveMaximizedWindow"
+                        }
+                    },
+                    "plugin": "org.kde.windowbuttons"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.marginsseparator"
+                },
+                {
+                    "config": {
+                        "/General": {
+                            "containmentType": "Plasma",
+                            "filterActivityInfo": "false",
+                            "filterByScreen": "true",
+                            "showIcon": "false"
+                        }
+                    },
+                    "plugin": "org.kde.windowtitle"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.marginsseparator"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.panelspacer"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "PreloadWeight": "100",
+                            "popupHeight": "450",
+                            "popupWidth": "810"
+                        },
+                        "/Appearance": {
+                            "customDateFormat": "ddd d MMM",
+                            "dateDisplayFormat": "BesideTime",
+                            "dateFormat": "custom",
+                            "enabledCalendarPlugins": "/usr/lib/qt/plugins/plasmacalendarplugins/astronomicalevents.so,/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so",
+                            "firstDayOfWeek": "0",
+                            "showWeekNumbers": "true",
+                            "use24hFormat": "0"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.digitalclock"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.panelspacer"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "PreloadWeight": "100"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.systemtray"
+                }
+            ],
+            "config": {
+                "/": {
+                    "formfactor": "2",
+                    "immutability": "1",
+                    "lastScreen": "0",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/ConfigDialog": {
+                    "DialogHeight": "74",
+                    "DialogWidth": "1920"
+                }
+            },
+            "height": 1.7777777777777777,
+            "hiding": "normal",
+            "location": "top",
+            "maximumLength": 106.66666666666667,
+            "minimumLength": 106.66666666666667,
+            "offset": 0
+        }
+    ],
+    "serializationFormatVersion": "1"
 }
+;
+
+plasma.loadSerializedLayout(layout);
