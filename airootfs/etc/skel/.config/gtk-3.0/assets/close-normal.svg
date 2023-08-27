@@ -7,10 +7,11 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#ff2a2a" fill-opacity="1" stroke="none" transform="matrix(0.0548326,0,0,-0.0548323,-3.69636,48.8502)"
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
 font-family="Roboto" font-size="10" font-weight="870" font-style="normal" 
 >
-<path vector-effect="none" fill-rule="nonzero" d="M523.349,-20.9698 C775.15,-20.9698 979.279,183.16 979.279,434.966 C979.279,686.772 775.15,890.902 523.349,890.902 C271.541,890.902 67.4117,686.772 67.4117,434.966 C67.4117,183.16 271.541,-20.9698 523.349,-20.9698 "/>
+<polyline fill="none" vector-effect="none" points="5,5 13,13 " />
+<polyline fill="none" vector-effect="none" points="13,5 5,13 " />
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"

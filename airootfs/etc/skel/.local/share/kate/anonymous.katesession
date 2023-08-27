@@ -1,27 +1,16 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=.desktop
+Highlighting=HTML
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=.desktop
+Mode=HTML
 Mode Set By User=false
-URL=file:///home/natesworks/.local/share/applications/Package Manager.desktop
-
-[Document 1]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=.desktop
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=.desktop
-Mode Set By User=false
-URL=file:///usr/share/applications/calamares.desktop
+URL=https://discordapp.com/handoff?rpc=6463&key=265177f9-c9c6-48b3-87b9-29c297316825
 
 [Kate Plugins]
 cmaketoolsplugin=false
 compilerexplorer=false
-cuttlefishplugin=false
 eslintplugin=false
 externaltoolsplugin=true
 formatplugin=false
@@ -47,23 +36,22 @@ keyboardmacrosplugin=false
 ktexteditorpreviewplugin=false
 latexcompletionplugin=false
 lspclientplugin=true
+openlinkplugin=false
 rainbowparens=false
 tabswitcherplugin=true
 textfilterplugin=true
 
 [MainWindow0]
-1920x1080 screen: XPosition=733
-1920x1080 screen: YPosition=277
 Active ViewSpace=0
 Kate-MDI-H-Splitter=0,596,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
 Kate-MDI-Sidebar-0-LastSize=200
 Kate-MDI-Sidebar-0-SectSizes=0
-Kate-MDI-Sidebar-0-Splitter=405
+Kate-MDI-Sidebar-0-Splitter=404
 Kate-MDI-Sidebar-1-Bar-0-TvList=
 Kate-MDI-Sidebar-1-LastSize=200
 Kate-MDI-Sidebar-1-SectSizes=0
-Kate-MDI-Sidebar-1-Splitter=405
+Kate-MDI-Sidebar-1-Splitter=404
 Kate-MDI-Sidebar-2-Bar-0-TvList=
 Kate-MDI-Sidebar-2-LastSize=200
 Kate-MDI-Sidebar-2-SectSizes=0
@@ -71,7 +59,7 @@ Kate-MDI-Sidebar-2-Splitter=596
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=332
+Kate-MDI-Sidebar-3-Splitter=340
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-diagnostics-Position=3
@@ -101,20 +89,16 @@ Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
 Kate-MDI-ToolView-output-Position=3
 Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-output-Visible=false
-Kate-MDI-V-Splitter=0,405,0
+Kate-MDI-V-Splitter=0,404,0
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAGyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHl/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHx/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-eDP-1=eDP-1
 
 [MainWindow0 Settings]
-1920x1080 screen: XPosition=733
-1920x1080 screen: YPosition=277
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAGyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHl/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHx/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 WindowState=8
-eDP-1=eDP-1
 
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
@@ -122,30 +106,21 @@ Orientation=1
 Sizes=596
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///usr/share/applications/calamares.desktop
-Count=2
-Documents=file:///home/natesworks/.local/share/applications/Package Manager.desktop,file:///usr/share/applications/calamares.desktop
-View 0=file:///home/natesworks/.local/share/applications/Package Manager.desktop
-View 1=file:///usr/share/applications/calamares.desktop
+Active View=https://discordapp.com/handoff?rpc=6463&key=265177f9-c9c6-48b3-87b9-29c297316825
+Count=1
+Documents=https://discordapp.com/handoff?rpc=6463&key=265177f9-c9c6-48b3-87b9-29c297316825
+View 0=https://discordapp.com/handoff?rpc=6463&key=265177f9-c9c6-48b3-87b9-29c297316825
 
-[MainWindow0-ViewSpace 0 file:///home/natesworks/.local/share/applications/Package Manager.desktop]
-CursorColumn=21
-CursorLine=5
+[MainWindow0-ViewSpace 0 https://discordapp.com/handoff?rpc=6463&key=265177f9-c9c6-48b3-87b9-29c297316825]
+CursorColumn=0
+CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"56fedb35a27d988d086e5421dc5cbd752edd94b5","ranges":[]}
-ViMarks=
-
-[MainWindow0-ViewSpace 0 file:///usr/share/applications/calamares.desktop]
-CursorColumn=14
-CursorLine=9
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"97ad28de8067f0d40e2ff7fd61b6f9dbf5ab6a01","ranges":[]}
+TextFolding={"checksum":"407900bf28c6fbff72dd3e2e8e523eca0c393e44","ranges":[]}
 ViMarks=
 
 [Open Documents]
-Count=2
+Count=1
 
 [Open MainWindows]
 Count=1
@@ -185,6 +160,7 @@ File5[$e]=$HOME/swiftos/airootfs/etc/skel/.config/menus/applications-kmenuedit.m
 File6[$e]=$HOME/swiftos/airootfs/etc/skel/.local/share/applications/Package Manager.desktop
 File7[$e]=$HOME/.local/share/applications/Package Manager.desktop
 File8[$e]=/usr/share/applications/calamares.desktop
+File9[$e]=https://discordapp.com/handoff?rpc=6463&key=265177f9-c9c6-48b3-87b9-29c297316825
 Name1[$e]=user-dirs.dirs
 Name2[$e]=hostname
 Name3[$e]=QtProject.conf
@@ -193,3 +169,4 @@ Name5[$e]=applications-kmenuedit.menu
 Name6[$e]=Package Manager.desktop
 Name7[$e]=Package Manager.desktop
 Name8[$e]=calamares.desktop
+Name9[$e]=handoff
