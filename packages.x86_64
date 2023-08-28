@@ -130,6 +130,7 @@ zsh
 bash
 calamares
 customtkinter
+firewalld
 grub
 konsole
 krusader
@@ -145,4 +146,3 @@ sddm
 sddm-theme-tokyo-night
 systemsettings
 tk
-firewalld
