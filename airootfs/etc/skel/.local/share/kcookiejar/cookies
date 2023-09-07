@@ -1,6 +1,0 @@
-# KDE Cookie File v2
-#
-# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
-[discord.com]
-discord.com          ""                   "/"          1850815564    0 __dcfduid            7    827cacd044cc11eea7e769803277800b
-discord.com          ""                   "/"          1850815564    0 __sdcfduid           7    827cacd144cc11eea7e769803277800b193c46b29479283751558957f7fd4896df76f95c1abd13f81552c160e544e4d9

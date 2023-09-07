@@ -929,14 +929,4 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="https://discordapp.com/handoff?rpc=6463&amp;key=265177f9-c9c6-48b3-87b9-29c297316825" added="2023-08-27T11:26:04.849000Z" modified="2023-08-27T11:26:04.849000Z" visited="2023-08-27T11:26:04.849000Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2023-08-27T11:26:04.849000Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
 </xbel>

@@ -129,13 +129,11 @@ zsh
 
 bash
 calamares
-customtkinter
 firewalld
 grub
 konsole
-krusader
+dolphin
 librewolf
-os-prober
 partitionmanager
 plank
 plasma-desktop
@@ -145,4 +143,6 @@ plasma-workspace
 sddm
 sddm-theme-tokyo-night
 systemsettings
-tk
+htop
+boost
+boost-libs

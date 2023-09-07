@@ -1,6 +1,0 @@
-2023/08/27-11:42:10.055 4cf Reusing MANIFEST /home/natesworks/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/08/27-11:42:10.056 4cf Recovering log #4
-2023/08/27-11:42:10.057 4cf Reusing old log /home/natesworks/.config/discord/Local Storage/leveldb/000004.log 
-2023/08/27-11:44:21.468 4cf Level-0 table #8: started
-2023/08/27-11:44:21.470 4cf Level-0 table #8: 22450 bytes OK
-2023/08/27-11:44:21.471 4cf Delete type=0 #4

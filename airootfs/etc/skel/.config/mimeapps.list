@@ -1,4 +1,0 @@
-
-[Default Applications]
-modrinth=modrinth-app-handler.desktop
-x-scheme-handler/etcher=balena-etcher.desktop
