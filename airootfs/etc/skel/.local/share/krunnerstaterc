@@ -1,0 +1,6 @@
+[PlasmaRunnerManager]
+LaunchCounts=2 krunner_systemsettings_kcm_colors,1 exec:///usr/bin/plank,1 krunner_systemsettings_kcm_lookandfeel,2 exec:///usr/lib/firefox/firefox,2 exec:///usr/bin/flameshot,3 exec:///usr/bin/discord,1 applications:org.kde.konsole.desktop?action=NewWindow,2 krunner_systemsettings_kcm_kwindecoration
+
+[PlasmaRunnerManager][History]
+0f13c97f-5182-4768-8834-ddbbc9a79d07=logout,globa
+7df2cbc0-5e30-4584-b4f8-b541de1b7a2b=firefox,discord,plank,flame,colo,windo,window,theme,glob,global,cod,screen,vir,virt,modr,prism,d,c,chrom,flam,fla,dis,razer,spo,spotif,mo,spot,packa,times,STEAM,code,spoti,calamares,libre,lib,disc,CODE,raze,obs,apper,fo,pack,packag,o,launcher,setti,users,autos,login,theme exp

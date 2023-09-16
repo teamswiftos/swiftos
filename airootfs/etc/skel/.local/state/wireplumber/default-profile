@@ -1,0 +1,3 @@
+[default-profile]
+alsa_card.pci-0000_01_00.1.3=off
+alsa_card.pci-0000_00_1f.3.3=input:analog-stereo

@@ -1,0 +1,158 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=151,107,185
+BackgroundNormal=80,84,110
+DecorationFocus=184,117,220
+DecorationHover=184,117,220
+ForegroundActive=184,117,220
+ForegroundInactive=220,219,239
+ForegroundLink=184,117,220
+ForegroundNegative=188,98,115
+ForegroundNeutral=235,201,154
+ForegroundNormal=240,236,251
+ForegroundPositive=168,187,152
+ForegroundVisited=151,185,193
+
+[Colors:Complementary]
+BackgroundAlternate=50,50,68
+BackgroundNormal=50,50,68
+DecorationFocus=184,117,220
+DecorationHover=184,117,220
+ForegroundActive=184,117,220
+ForegroundInactive=220,219,239
+ForegroundLink=184,117,220
+ForegroundNegative=188,98,115
+ForegroundNeutral=235,201,154
+ForegroundNormal=240,236,251
+ForegroundPositive=168,187,152
+ForegroundVisited=151,185,193
+
+[Colors:Selection]
+BackgroundAlternate=142,97,173
+BackgroundNormal=142,97,173
+DecorationFocus=184,117,220
+DecorationHover=184,117,220
+ForegroundActive=184,117,220
+ForegroundInactive=255,255,255
+ForegroundLink=184,117,220
+ForegroundNegative=188,98,115
+ForegroundNeutral=235,201,154
+ForegroundNormal=255,255,255
+ForegroundPositive=168,187,152
+ForegroundVisited=151,185,193
+
+[Colors:Tooltip]
+BackgroundAlternate=80,84,110
+BackgroundNormal=80,84,110
+DecorationFocus=184,117,220
+DecorationHover=184,117,220
+ForegroundActive=184,117,220
+ForegroundInactive=220,219,239
+ForegroundLink=184,117,220
+ForegroundNegative=188,98,115
+ForegroundNeutral=235,201,154
+ForegroundNormal=240,236,251
+ForegroundPositive=168,187,152
+ForegroundVisited=151,185,193
+
+[Colors:View]
+BackgroundAlternate=50,50,68
+BackgroundNormal=50,50,68
+DecorationFocus=184,117,220
+DecorationHover=184,117,220
+ForegroundActive=184,117,220
+ForegroundInactive=220,219,239
+ForegroundLink=184,117,220
+ForegroundNegative=188,98,115
+ForegroundNeutral=235,201,154
+ForegroundNormal=240,236,251
+ForegroundPositive=168,187,152
+ForegroundVisited=151,185,193
+
+[Colors:Window]
+BackgroundAlternate=50,50,68
+BackgroundNormal=50,50,68
+DecorationFocus=184,117,220
+DecorationHover=184,117,220
+ForegroundActive=184,117,220
+ForegroundInactive=220,219,239
+ForegroundLink=184,117,220
+ForegroundNegative=188,98,115
+ForegroundNeutral=235,201,154
+ForegroundNormal=240,236,251
+ForegroundPositive=168,187,152
+ForegroundVisited=151,185,193
+
+[General]
+AccentColor=184,117,220
+BrowserApplication=firefox.desktop
+ColorSchemeHash=3cc2e5a4ca51bfe1bd8b5ae5cb3a03085875613f
+LastUsedCustomAccentColor=184,117,220
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=JetBrainsMono Nerd Font,10,-1,5,87,0,0,0,0,0,Regular
+font=Roboto,10,-1,5,87,0,0,0,0,0,Regular
+menuFont=Roboto,10,-1,5,87,0,0,0,0,0,Regular
+smallestReadableFont=Roboto,8,-1,5,87,0,0,0,0,0,Regular
+toolBarFont=Roboto,10,-1,5,87,0,0,0,0,0,Regular
+
+[KDE]
+LookAndFeelPackage=Utterly-Nord-Solid
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=163
+View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[WM]
+activeBackground=142,97,173
+activeBlend=46,52,64
+activeFont=Roboto,10,-1,5,50,0,0,0,0,0
+activeForeground=255,255,255
+inactiveBackground=50,50,68
+inactiveBlend=46,52,64
+inactiveForeground=173,173,180

@@ -1,0 +1,765 @@
+2023-08-27T11:25:32.122Z [Modules] Modules initializing
+2023-08-27T11:25:32.122Z [Modules] Distribution: remote
+2023-08-27T11:25:32.122Z [Modules] Host updates: enabled
+2023-08-27T11:25:32.123Z [Modules] Module updates: enabled
+2023-08-27T11:25:32.123Z [Modules] Module install path: /home/natesworks/.config/discord/0.0.28/modules
+2023-08-27T11:25:32.123Z [Modules] Module installed file path: /home/natesworks/.config/discord/0.0.28/modules/installed.json
+2023-08-27T11:25:32.123Z [Modules] Module download path: /home/natesworks/.config/discord/0.0.28/modules/pending
+2023-08-27T11:25:32.242Z [Modules] Bootstrapping...
+2023-08-27T11:25:32.242Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2023-08-27T11:25:32.243Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2023-08-27T11:25:32.243Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2023-08-27T11:25:32.243Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2023-08-27T11:25:32.244Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2023-08-27T11:25:32.244Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2023-08-27T11:25:32.244Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2023-08-27T11:25:32.244Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2023-08-27T11:25:32.245Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2023-08-27T11:25:32.245Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2023-08-27T11:25:32.245Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-08-27T11:25:32.245Z [Modules] Checking for host updates.
+2023-08-27T11:25:32.604Z [Modules] Host is up to date.
+2023-08-27T11:25:32.604Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:25:32.734Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-08-27T11:25:32.734Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-08-27T11:25:32.734Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-08-27T11:25:32.734Z [Modules] Module update available: discord_utils@2 [installed: 0]
+2023-08-27T11:25:32.734Z [Modules] Module update available: discord_voice@3 [installed: 0]
+2023-08-27T11:25:32.735Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-08-27T11:25:32.735Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip
+2023-08-27T11:25:33.158Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 1%
+2023-08-27T11:25:33.166Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 2%
+2023-08-27T11:25:33.184Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 3%
+2023-08-27T11:25:33.198Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 5%
+2023-08-27T11:25:33.209Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 6%
+2023-08-27T11:25:33.215Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 7%
+2023-08-27T11:25:33.228Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 9%
+2023-08-27T11:25:33.237Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 10%
+2023-08-27T11:25:33.240Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 11%
+2023-08-27T11:25:33.245Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 12%
+2023-08-27T11:25:33.247Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 13%
+2023-08-27T11:25:33.251Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 14%
+2023-08-27T11:25:33.254Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 15%
+2023-08-27T11:25:33.257Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 16%
+2023-08-27T11:25:33.259Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 17%
+2023-08-27T11:25:33.265Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 18%
+2023-08-27T11:25:33.274Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 19%
+2023-08-27T11:25:33.287Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 20%
+2023-08-27T11:25:33.302Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 21%
+2023-08-27T11:25:33.304Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 22%
+2023-08-27T11:25:33.306Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 23%
+2023-08-27T11:25:33.308Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 24%
+2023-08-27T11:25:33.313Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 25%
+2023-08-27T11:25:33.315Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 26%
+2023-08-27T11:25:33.325Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 27%
+2023-08-27T11:25:33.350Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 28%
+2023-08-27T11:25:33.363Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 29%
+2023-08-27T11:25:33.381Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 30%
+2023-08-27T11:25:33.386Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 31%
+2023-08-27T11:25:33.400Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 32%
+2023-08-27T11:25:33.405Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 33%
+2023-08-27T11:25:33.410Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 34%
+2023-08-27T11:25:33.419Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 35%
+2023-08-27T11:25:33.425Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 36%
+2023-08-27T11:25:33.430Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 37%
+2023-08-27T11:25:33.435Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 38%
+2023-08-27T11:25:33.449Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 39%
+2023-08-27T11:25:33.455Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 40%
+2023-08-27T11:25:33.458Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 41%
+2023-08-27T11:25:33.483Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 44%
+2023-08-27T11:25:33.486Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 45%
+2023-08-27T11:25:33.494Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 47%
+2023-08-27T11:25:33.497Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 48%
+2023-08-27T11:25:33.503Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 49%
+2023-08-27T11:25:33.506Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 50%
+2023-08-27T11:25:33.509Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 51%
+2023-08-27T11:25:33.513Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 52%
+2023-08-27T11:25:33.521Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 53%
+2023-08-27T11:25:33.540Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 54%
+2023-08-27T11:25:33.563Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 55%
+2023-08-27T11:25:33.581Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 56%
+2023-08-27T11:25:33.584Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 57%
+2023-08-27T11:25:33.586Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 58%
+2023-08-27T11:25:33.589Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 59%
+2023-08-27T11:25:33.594Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 60%
+2023-08-27T11:25:33.596Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 61%
+2023-08-27T11:25:33.598Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 62%
+2023-08-27T11:25:33.605Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 63%
+2023-08-27T11:25:33.607Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 64%
+2023-08-27T11:25:33.612Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 65%
+2023-08-27T11:25:33.615Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 66%
+2023-08-27T11:25:33.645Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 67%
+2023-08-27T11:25:33.662Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 68%
+2023-08-27T11:25:33.669Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 71%
+2023-08-27T11:25:33.672Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 72%
+2023-08-27T11:25:33.675Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 73%
+2023-08-27T11:25:33.679Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 74%
+2023-08-27T11:25:33.685Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 76%
+2023-08-27T11:25:33.694Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 77%
+2023-08-27T11:25:33.698Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 78%
+2023-08-27T11:25:33.708Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 79%
+2023-08-27T11:25:33.710Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 80%
+2023-08-27T11:25:33.722Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 81%
+2023-08-27T11:25:33.738Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 82%
+2023-08-27T11:25:33.740Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 83%
+2023-08-27T11:25:33.744Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 84%
+2023-08-27T11:25:33.747Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 85%
+2023-08-27T11:25:33.752Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 87%
+2023-08-27T11:25:33.765Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 89%
+2023-08-27T11:25:33.774Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 90%
+2023-08-27T11:25:33.781Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 92%
+2023-08-27T11:25:33.787Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 93%
+2023-08-27T11:25:33.790Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 94%
+2023-08-27T11:25:33.818Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 95%
+2023-08-27T11:25:33.830Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 96%
+2023-08-27T11:25:33.844Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 99%
+2023-08-27T11:25:33.845Z [Modules] Streaming discord_desktop_core@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 100%
+2023-08-27T11:25:33.846Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-08-27T11:25:33.846Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip
+2023-08-27T11:25:34.107Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 1%
+2023-08-27T11:25:34.121Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 2%
+2023-08-27T11:25:34.126Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 5%
+2023-08-27T11:25:34.130Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 6%
+2023-08-27T11:25:34.135Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 7%
+2023-08-27T11:25:34.147Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 8%
+2023-08-27T11:25:34.158Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 9%
+2023-08-27T11:25:34.160Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 10%
+2023-08-27T11:25:34.163Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 11%
+2023-08-27T11:25:34.169Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 12%
+2023-08-27T11:25:34.172Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 13%
+2023-08-27T11:25:34.177Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 14%
+2023-08-27T11:25:34.179Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 15%
+2023-08-27T11:25:34.181Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 16%
+2023-08-27T11:25:34.190Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 17%
+2023-08-27T11:25:34.192Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 18%
+2023-08-27T11:25:34.195Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 19%
+2023-08-27T11:25:34.199Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 20%
+2023-08-27T11:25:34.204Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 21%
+2023-08-27T11:25:34.207Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 22%
+2023-08-27T11:25:34.210Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 23%
+2023-08-27T11:25:34.212Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 24%
+2023-08-27T11:25:34.240Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 26%
+2023-08-27T11:25:34.242Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 27%
+2023-08-27T11:25:34.244Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 28%
+2023-08-27T11:25:34.247Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 29%
+2023-08-27T11:25:34.249Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 30%
+2023-08-27T11:25:34.251Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 31%
+2023-08-27T11:25:34.256Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 33%
+2023-08-27T11:25:34.259Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 34%
+2023-08-27T11:25:34.272Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 36%
+2023-08-27T11:25:34.275Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 37%
+2023-08-27T11:25:34.277Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 38%
+2023-08-27T11:25:34.291Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 39%
+2023-08-27T11:25:34.301Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 42%
+2023-08-27T11:25:34.304Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 43%
+2023-08-27T11:25:34.307Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 44%
+2023-08-27T11:25:34.314Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 45%
+2023-08-27T11:25:34.316Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 46%
+2023-08-27T11:25:34.325Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 47%
+2023-08-27T11:25:34.327Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 48%
+2023-08-27T11:25:34.333Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 49%
+2023-08-27T11:25:34.340Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 50%
+2023-08-27T11:25:34.343Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 51%
+2023-08-27T11:25:34.349Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 52%
+2023-08-27T11:25:34.366Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 53%
+2023-08-27T11:25:34.373Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 54%
+2023-08-27T11:25:34.386Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 55%
+2023-08-27T11:25:34.400Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 57%
+2023-08-27T11:25:34.401Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 58%
+2023-08-27T11:25:34.405Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 59%
+2023-08-27T11:25:34.408Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 60%
+2023-08-27T11:25:34.412Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 61%
+2023-08-27T11:25:34.416Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 62%
+2023-08-27T11:25:34.422Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 63%
+2023-08-27T11:25:34.425Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 64%
+2023-08-27T11:25:34.430Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 65%
+2023-08-27T11:25:34.433Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 66%
+2023-08-27T11:25:34.439Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 67%
+2023-08-27T11:25:34.442Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 68%
+2023-08-27T11:25:34.447Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 69%
+2023-08-27T11:25:34.449Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 70%
+2023-08-27T11:25:34.453Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 71%
+2023-08-27T11:25:34.456Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 72%
+2023-08-27T11:25:34.484Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 74%
+2023-08-27T11:25:34.487Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 75%
+2023-08-27T11:25:34.532Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 76%
+2023-08-27T11:25:34.537Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 77%
+2023-08-27T11:25:34.543Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 78%
+2023-08-27T11:25:34.547Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 79%
+2023-08-27T11:25:34.550Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 80%
+2023-08-27T11:25:34.552Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 81%
+2023-08-27T11:25:34.554Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 82%
+2023-08-27T11:25:34.557Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 83%
+2023-08-27T11:25:34.563Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 84%
+2023-08-27T11:25:34.567Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 85%
+2023-08-27T11:25:34.571Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 86%
+2023-08-27T11:25:34.577Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 87%
+2023-08-27T11:25:34.579Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 88%
+2023-08-27T11:25:34.583Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 89%
+2023-08-27T11:25:34.596Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 92%
+2023-08-27T11:25:34.598Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 93%
+2023-08-27T11:25:34.605Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 94%
+2023-08-27T11:25:34.610Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 95%
+2023-08-27T11:25:34.615Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 96%
+2023-08-27T11:25:34.618Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 97%
+2023-08-27T11:25:34.622Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 98%
+2023-08-27T11:25:34.628Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 99%
+2023-08-27T11:25:34.631Z [Modules] Streaming discord_erlpack@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 100%
+2023-08-27T11:25:34.632Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-08-27T11:25:34.632Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip
+2023-08-27T11:25:34.890Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 1%
+2023-08-27T11:25:34.918Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 2%
+2023-08-27T11:25:34.962Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 3%
+2023-08-27T11:25:34.974Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 4%
+2023-08-27T11:25:35.010Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 5%
+2023-08-27T11:25:35.027Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 6%
+2023-08-27T11:25:35.062Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 7%
+2023-08-27T11:25:35.088Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 8%
+2023-08-27T11:25:35.111Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 9%
+2023-08-27T11:25:35.140Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 10%
+2023-08-27T11:25:35.168Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 11%
+2023-08-27T11:25:35.184Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 12%
+2023-08-27T11:25:35.215Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 13%
+2023-08-27T11:25:35.241Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 14%
+2023-08-27T11:25:35.260Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 15%
+2023-08-27T11:25:35.279Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 16%
+2023-08-27T11:25:35.307Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 17%
+2023-08-27T11:25:35.334Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 18%
+2023-08-27T11:25:35.356Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 19%
+2023-08-27T11:25:35.376Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 20%
+2023-08-27T11:25:35.402Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 21%
+2023-08-27T11:25:35.426Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 22%
+2023-08-27T11:25:35.453Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 23%
+2023-08-27T11:25:35.476Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 24%
+2023-08-27T11:25:35.497Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 25%
+2023-08-27T11:25:35.519Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 26%
+2023-08-27T11:25:35.560Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 27%
+2023-08-27T11:25:35.577Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 28%
+2023-08-27T11:25:35.612Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 29%
+2023-08-27T11:25:35.629Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 30%
+2023-08-27T11:25:35.682Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 31%
+2023-08-27T11:25:35.744Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 32%
+2023-08-27T11:25:35.774Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 33%
+2023-08-27T11:25:35.814Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 34%
+2023-08-27T11:25:35.839Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 35%
+2023-08-27T11:25:35.879Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 36%
+2023-08-27T11:25:35.919Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 37%
+2023-08-27T11:25:35.939Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 38%
+2023-08-27T11:25:35.970Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 39%
+2023-08-27T11:25:35.994Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 40%
+2023-08-27T11:25:36.054Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 41%
+2023-08-27T11:25:36.099Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 42%
+2023-08-27T11:25:36.134Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 43%
+2023-08-27T11:25:36.180Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 44%
+2023-08-27T11:25:36.206Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 45%
+2023-08-27T11:25:36.236Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 46%
+2023-08-27T11:25:36.342Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 47%
+2023-08-27T11:25:36.369Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 48%
+2023-08-27T11:25:36.441Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 49%
+2023-08-27T11:25:36.475Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 50%
+2023-08-27T11:25:36.508Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 51%
+2023-08-27T11:25:36.627Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 52%
+2023-08-27T11:25:36.694Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 53%
+2023-08-27T11:25:36.767Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 54%
+2023-08-27T11:25:36.814Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 55%
+2023-08-27T11:25:36.863Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 56%
+2023-08-27T11:25:36.947Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 57%
+2023-08-27T11:25:37.039Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 58%
+2023-08-27T11:25:37.100Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 59%
+2023-08-27T11:25:37.190Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 60%
+2023-08-27T11:25:37.329Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 61%
+2023-08-27T11:25:37.420Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 62%
+2023-08-27T11:25:37.610Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 63%
+2023-08-27T11:25:37.881Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 64%
+2023-08-27T11:25:37.918Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 65%
+2023-08-27T11:25:37.973Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 66%
+2023-08-27T11:25:38.044Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 67%
+2023-08-27T11:25:38.100Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 68%
+2023-08-27T11:25:38.154Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 69%
+2023-08-27T11:25:38.209Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 70%
+2023-08-27T11:25:38.252Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 71%
+2023-08-27T11:25:38.312Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 72%
+2023-08-27T11:25:38.372Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 73%
+2023-08-27T11:25:38.440Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 74%
+2023-08-27T11:25:38.503Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 75%
+2023-08-27T11:25:38.588Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 76%
+2023-08-27T11:25:38.686Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 77%
+2023-08-27T11:25:38.799Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 78%
+2023-08-27T11:25:38.949Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 79%
+2023-08-27T11:25:39.044Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 80%
+2023-08-27T11:25:39.233Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 81%
+2023-08-27T11:25:39.404Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 82%
+2023-08-27T11:25:39.619Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 83%
+2023-08-27T11:25:39.799Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 84%
+2023-08-27T11:25:40.089Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 85%
+2023-08-27T11:25:40.331Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 86%
+2023-08-27T11:25:40.559Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 87%
+2023-08-27T11:25:40.835Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 88%
+2023-08-27T11:25:41.161Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 89%
+2023-08-27T11:25:41.384Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 90%
+2023-08-27T11:25:41.805Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 91%
+2023-08-27T11:25:41.951Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 92%
+2023-08-27T11:25:42.089Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 93%
+2023-08-27T11:25:42.237Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 94%
+2023-08-27T11:25:42.361Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 95%
+2023-08-27T11:25:42.463Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 96%
+2023-08-27T11:25:42.572Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 97%
+2023-08-27T11:25:42.668Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 98%
+2023-08-27T11:25:42.763Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 99%
+2023-08-27T11:25:42.846Z [Modules] Streaming discord_spellcheck@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 100%
+2023-08-27T11:25:42.847Z [Modules] Fetching discord_utils@2 from https://discord.com/api/modules/stable/discord_utils/2
+2023-08-27T11:25:42.847Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip
+2023-08-27T11:25:43.132Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 1%
+2023-08-27T11:25:43.174Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 2%
+2023-08-27T11:25:43.337Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 3%
+2023-08-27T11:25:43.444Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 4%
+2023-08-27T11:25:43.488Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 5%
+2023-08-27T11:25:43.506Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 6%
+2023-08-27T11:25:43.543Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 7%
+2023-08-27T11:25:43.569Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 8%
+2023-08-27T11:25:43.635Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 9%
+2023-08-27T11:25:43.641Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 10%
+2023-08-27T11:25:43.656Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 11%
+2023-08-27T11:25:43.688Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 12%
+2023-08-27T11:25:43.715Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 13%
+2023-08-27T11:25:43.737Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 14%
+2023-08-27T11:25:43.773Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 15%
+2023-08-27T11:25:43.794Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 16%
+2023-08-27T11:25:43.822Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 17%
+2023-08-27T11:25:43.846Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 18%
+2023-08-27T11:25:43.866Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 19%
+2023-08-27T11:25:43.882Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 20%
+2023-08-27T11:25:43.920Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 21%
+2023-08-27T11:25:43.938Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 22%
+2023-08-27T11:25:43.956Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 23%
+2023-08-27T11:25:43.976Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 24%
+2023-08-27T11:25:44.004Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 25%
+2023-08-27T11:25:44.026Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 26%
+2023-08-27T11:25:44.043Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 27%
+2023-08-27T11:25:44.064Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 28%
+2023-08-27T11:25:44.086Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 29%
+2023-08-27T11:25:44.104Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 30%
+2023-08-27T11:25:44.124Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 31%
+2023-08-27T11:25:44.142Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 32%
+2023-08-27T11:25:44.159Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 33%
+2023-08-27T11:25:44.178Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 34%
+2023-08-27T11:25:44.194Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 35%
+2023-08-27T11:25:44.219Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 36%
+2023-08-27T11:25:44.239Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 37%
+2023-08-27T11:25:44.258Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 38%
+2023-08-27T11:25:44.280Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 39%
+2023-08-27T11:25:44.292Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 40%
+2023-08-27T11:25:44.312Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 41%
+2023-08-27T11:25:44.329Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 42%
+2023-08-27T11:25:44.346Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 43%
+2023-08-27T11:25:44.355Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 44%
+2023-08-27T11:25:44.374Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 45%
+2023-08-27T11:25:44.404Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 46%
+2023-08-27T11:25:44.413Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 47%
+2023-08-27T11:25:44.433Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 48%
+2023-08-27T11:25:44.451Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 49%
+2023-08-27T11:25:44.460Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 50%
+2023-08-27T11:25:44.469Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 51%
+2023-08-27T11:25:44.493Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 52%
+2023-08-27T11:25:44.517Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 53%
+2023-08-27T11:25:44.529Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 54%
+2023-08-27T11:25:44.540Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 55%
+2023-08-27T11:25:44.553Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 56%
+2023-08-27T11:25:44.590Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 57%
+2023-08-27T11:25:44.638Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 58%
+2023-08-27T11:25:44.643Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 59%
+2023-08-27T11:25:44.647Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 60%
+2023-08-27T11:25:44.672Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 61%
+2023-08-27T11:25:44.675Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 62%
+2023-08-27T11:25:44.682Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 63%
+2023-08-27T11:25:44.702Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 64%
+2023-08-27T11:25:44.711Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 65%
+2023-08-27T11:25:44.724Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 66%
+2023-08-27T11:25:44.752Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 67%
+2023-08-27T11:25:44.763Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 68%
+2023-08-27T11:25:44.775Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 69%
+2023-08-27T11:25:44.790Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 70%
+2023-08-27T11:25:44.808Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 71%
+2023-08-27T11:25:44.834Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 72%
+2023-08-27T11:25:44.846Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 73%
+2023-08-27T11:25:44.863Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 74%
+2023-08-27T11:25:44.873Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 75%
+2023-08-27T11:25:44.888Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 76%
+2023-08-27T11:25:44.908Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 77%
+2023-08-27T11:25:44.926Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 78%
+2023-08-27T11:25:44.934Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 79%
+2023-08-27T11:25:44.949Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 80%
+2023-08-27T11:25:44.962Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 81%
+2023-08-27T11:25:44.976Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 82%
+2023-08-27T11:25:45.002Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 83%
+2023-08-27T11:25:45.016Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 84%
+2023-08-27T11:25:45.022Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 85%
+2023-08-27T11:25:45.033Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 86%
+2023-08-27T11:25:45.056Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 87%
+2023-08-27T11:25:45.226Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 88%
+2023-08-27T11:25:45.238Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 89%
+2023-08-27T11:25:45.248Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 90%
+2023-08-27T11:25:45.276Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 91%
+2023-08-27T11:25:45.279Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 92%
+2023-08-27T11:25:45.292Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 93%
+2023-08-27T11:25:45.295Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 94%
+2023-08-27T11:25:45.301Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 95%
+2023-08-27T11:25:45.306Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 96%
+2023-08-27T11:25:45.313Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 97%
+2023-08-27T11:25:45.332Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 98%
+2023-08-27T11:25:45.355Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 99%
+2023-08-27T11:25:45.358Z [Modules] Streaming discord_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip: 100%
+2023-08-27T11:25:45.359Z [Modules] Fetching discord_voice@3 from https://discord.com/api/modules/stable/discord_voice/3
+2023-08-27T11:25:45.359Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip
+2023-08-27T11:25:45.698Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 1%
+2023-08-27T11:25:45.763Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 2%
+2023-08-27T11:25:45.854Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 3%
+2023-08-27T11:25:45.900Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 4%
+2023-08-27T11:25:45.954Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 5%
+2023-08-27T11:25:46.031Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 6%
+2023-08-27T11:25:46.082Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 7%
+2023-08-27T11:25:46.127Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 8%
+2023-08-27T11:25:46.186Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 9%
+2023-08-27T11:25:46.273Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 10%
+2023-08-27T11:25:46.325Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 11%
+2023-08-27T11:25:46.384Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 12%
+2023-08-27T11:25:46.431Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 13%
+2023-08-27T11:25:46.469Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 14%
+2023-08-27T11:25:46.502Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 15%
+2023-08-27T11:25:46.548Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 16%
+2023-08-27T11:25:46.603Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 17%
+2023-08-27T11:25:46.652Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 18%
+2023-08-27T11:25:46.702Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 19%
+2023-08-27T11:25:46.741Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 20%
+2023-08-27T11:25:46.785Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 21%
+2023-08-27T11:25:46.829Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 22%
+2023-08-27T11:25:46.873Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 23%
+2023-08-27T11:25:46.924Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 24%
+2023-08-27T11:25:46.954Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 25%
+2023-08-27T11:25:47.067Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 26%
+2023-08-27T11:25:47.112Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 27%
+2023-08-27T11:25:47.206Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 28%
+2023-08-27T11:25:47.264Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 29%
+2023-08-27T11:25:47.308Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 30%
+2023-08-27T11:25:47.483Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 31%
+2023-08-27T11:25:47.679Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 32%
+2023-08-27T11:25:47.837Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 33%
+2023-08-27T11:25:47.993Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 34%
+2023-08-27T11:25:48.160Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 35%
+2023-08-27T11:25:48.364Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 36%
+2023-08-27T11:25:48.567Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 37%
+2023-08-27T11:25:48.753Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 38%
+2023-08-27T11:25:48.903Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 39%
+2023-08-27T11:25:49.155Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 40%
+2023-08-27T11:25:49.380Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 41%
+2023-08-27T11:25:49.637Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 42%
+2023-08-27T11:25:49.706Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 43%
+2023-08-27T11:25:49.737Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 44%
+2023-08-27T11:25:49.783Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 45%
+2023-08-27T11:25:49.823Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 46%
+2023-08-27T11:25:49.867Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 47%
+2023-08-27T11:25:49.903Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 48%
+2023-08-27T11:25:49.957Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 49%
+2023-08-27T11:25:50.054Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 50%
+2023-08-27T11:25:50.098Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 51%
+2023-08-27T11:25:50.119Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 52%
+2023-08-27T11:25:50.147Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 53%
+2023-08-27T11:25:50.193Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 54%
+2023-08-27T11:25:50.281Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 55%
+2023-08-27T11:25:50.310Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 56%
+2023-08-27T11:25:50.353Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 57%
+2023-08-27T11:25:50.387Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 58%
+2023-08-27T11:25:50.402Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 59%
+2023-08-27T11:25:50.426Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 60%
+2023-08-27T11:25:50.475Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 61%
+2023-08-27T11:25:50.536Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 62%
+2023-08-27T11:25:50.565Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 63%
+2023-08-27T11:25:50.601Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 64%
+2023-08-27T11:25:50.644Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 65%
+2023-08-27T11:25:50.663Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 66%
+2023-08-27T11:25:50.703Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 67%
+2023-08-27T11:25:50.740Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 68%
+2023-08-27T11:25:50.769Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 69%
+2023-08-27T11:25:50.811Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 70%
+2023-08-27T11:25:50.856Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 71%
+2023-08-27T11:25:50.890Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 72%
+2023-08-27T11:25:50.926Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 73%
+2023-08-27T11:25:50.960Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 74%
+2023-08-27T11:25:50.977Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 75%
+2023-08-27T11:25:51.006Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 76%
+2023-08-27T11:25:51.047Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 77%
+2023-08-27T11:25:51.093Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 78%
+2023-08-27T11:25:51.136Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 79%
+2023-08-27T11:25:51.142Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 80%
+2023-08-27T11:25:51.159Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 81%
+2023-08-27T11:25:51.190Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 82%
+2023-08-27T11:25:51.222Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 83%
+2023-08-27T11:25:51.259Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 84%
+2023-08-27T11:25:51.278Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 85%
+2023-08-27T11:25:51.315Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 86%
+2023-08-27T11:25:51.351Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 87%
+2023-08-27T11:25:51.363Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 88%
+2023-08-27T11:25:51.395Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 89%
+2023-08-27T11:25:51.419Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 90%
+2023-08-27T11:25:51.449Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 91%
+2023-08-27T11:25:51.470Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 92%
+2023-08-27T11:25:51.504Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 93%
+2023-08-27T11:25:51.553Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 94%
+2023-08-27T11:25:51.564Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 95%
+2023-08-27T11:25:51.593Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 96%
+2023-08-27T11:25:51.624Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 97%
+2023-08-27T11:25:51.654Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 98%
+2023-08-27T11:25:51.681Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 99%
+2023-08-27T11:25:51.716Z [Modules] Streaming discord_voice@3 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 100%
+2023-08-27T11:25:51.717Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-08-27T11:25:51.717Z [Modules] Installing updates...
+2023-08-27T11:25:51.717Z [Modules] Installing discord_desktop_core@1 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip
+2023-08-27T11:25:51.759Z [Modules] Installing discord_erlpack@1 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip
+2023-08-27T11:25:51.793Z [Modules] Installing discord_spellcheck@1 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip
+2023-08-27T11:25:52.104Z [Modules] Installing discord_utils@2 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_utils-2.zip
+2023-08-27T11:25:52.273Z [Modules] Installing discord_voice@3 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_voice-3.zip
+2023-08-27T11:25:52.657Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-08-27T11:25:52.657Z [Modules] Checking for host updates.
+2023-08-27T11:25:53.264Z [Modules] Host is up to date.
+2023-08-27T11:25:53.264Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:25:53.266Z [Modules] No module updates available.
+2023-08-27T11:25:55.855Z [Modules] Starting to install discord_krisp...
+2023-08-27T11:25:55.855Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-08-27T11:25:55.855Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip
+2023-08-27T11:25:55.866Z [Modules] Starting to install discord_game_utils...
+2023-08-27T11:25:58.143Z [Modules] Checking for host updates.
+2023-08-27T11:25:58.235Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 1%
+2023-08-27T11:25:58.302Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 2%
+2023-08-27T11:25:58.417Z [Modules] Starting to install discord_rpc...
+2023-08-27T11:25:58.430Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 3%
+2023-08-27T11:25:58.510Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 4%
+2023-08-27T11:25:58.547Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 5%
+2023-08-27T11:25:58.710Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 6%
+2023-08-27T11:25:58.763Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 7%
+2023-08-27T11:25:58.768Z [Modules] Host is up to date.
+2023-08-27T11:25:58.768Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:25:58.770Z [Modules] No module updates available.
+2023-08-27T11:25:58.802Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 8%
+2023-08-27T11:25:58.888Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 9%
+2023-08-27T11:25:58.922Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 10%
+2023-08-27T11:25:59.172Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 11%
+2023-08-27T11:25:59.260Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 12%
+2023-08-27T11:25:59.329Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 13%
+2023-08-27T11:25:59.371Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 14%
+2023-08-27T11:25:59.434Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 15%
+2023-08-27T11:25:59.480Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 16%
+2023-08-27T11:25:59.525Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 17%
+2023-08-27T11:25:59.590Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 18%
+2023-08-27T11:25:59.636Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 19%
+2023-08-27T11:25:59.682Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 20%
+2023-08-27T11:25:59.730Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 21%
+2023-08-27T11:25:59.777Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 22%
+2023-08-27T11:25:59.855Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 23%
+2023-08-27T11:25:59.899Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 24%
+2023-08-27T11:25:59.963Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 25%
+2023-08-27T11:26:00.015Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 26%
+2023-08-27T11:26:00.045Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 27%
+2023-08-27T11:26:00.063Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 28%
+2023-08-27T11:26:00.086Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 29%
+2023-08-27T11:26:00.105Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 30%
+2023-08-27T11:26:00.130Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 31%
+2023-08-27T11:26:00.165Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 32%
+2023-08-27T11:26:00.181Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 33%
+2023-08-27T11:26:00.199Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 34%
+2023-08-27T11:26:00.220Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 35%
+2023-08-27T11:26:00.256Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 36%
+2023-08-27T11:26:00.274Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 37%
+2023-08-27T11:26:00.293Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 38%
+2023-08-27T11:26:00.330Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 39%
+2023-08-27T11:26:00.346Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 40%
+2023-08-27T11:26:00.367Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 41%
+2023-08-27T11:26:00.392Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 42%
+2023-08-27T11:26:00.430Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 43%
+2023-08-27T11:26:00.445Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 44%
+2023-08-27T11:26:00.485Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 45%
+2023-08-27T11:26:00.536Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 46%
+2023-08-27T11:26:00.570Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 47%
+2023-08-27T11:26:00.610Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 48%
+2023-08-27T11:26:00.677Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 49%
+2023-08-27T11:26:00.747Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 50%
+2023-08-27T11:26:00.767Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 51%
+2023-08-27T11:26:00.807Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 52%
+2023-08-27T11:26:00.836Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 53%
+2023-08-27T11:26:00.886Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 54%
+2023-08-27T11:26:00.934Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 55%
+2023-08-27T11:26:00.954Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 56%
+2023-08-27T11:26:00.989Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 57%
+2023-08-27T11:26:01.020Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 58%
+2023-08-27T11:26:01.099Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 59%
+2023-08-27T11:26:01.211Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 60%
+2023-08-27T11:26:01.259Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 61%
+2023-08-27T11:26:01.322Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 62%
+2023-08-27T11:26:01.442Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 63%
+2023-08-27T11:26:01.515Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 64%
+2023-08-27T11:26:01.548Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 65%
+2023-08-27T11:26:01.601Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 66%
+2023-08-27T11:26:01.661Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 67%
+2023-08-27T11:26:01.689Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 68%
+2023-08-27T11:26:01.718Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 69%
+2023-08-27T11:26:01.757Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 70%
+2023-08-27T11:26:01.835Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 71%
+2023-08-27T11:26:01.868Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 72%
+2023-08-27T11:26:01.903Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 73%
+2023-08-27T11:26:01.932Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 74%
+2023-08-27T11:26:01.957Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 75%
+2023-08-27T11:26:01.987Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 76%
+2023-08-27T11:26:02.038Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 77%
+2023-08-27T11:26:02.162Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 78%
+2023-08-27T11:26:02.262Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 79%
+2023-08-27T11:26:02.345Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 80%
+2023-08-27T11:26:02.403Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 81%
+2023-08-27T11:26:02.505Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 82%
+2023-08-27T11:26:02.528Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 83%
+2023-08-27T11:26:02.558Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 84%
+2023-08-27T11:26:02.589Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 85%
+2023-08-27T11:26:02.627Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 86%
+2023-08-27T11:26:02.641Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 87%
+2023-08-27T11:26:02.721Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 88%
+2023-08-27T11:26:02.779Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 89%
+2023-08-27T11:26:02.851Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 90%
+2023-08-27T11:26:02.895Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 91%
+2023-08-27T11:26:02.917Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 92%
+2023-08-27T11:26:02.950Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 93%
+2023-08-27T11:26:03.010Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 94%
+2023-08-27T11:26:03.038Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 95%
+2023-08-27T11:26:03.083Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 96%
+2023-08-27T11:26:03.128Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 97%
+2023-08-27T11:26:03.187Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 98%
+2023-08-27T11:26:03.209Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 99%
+2023-08-27T11:26:03.278Z [Modules] Streaming discord_krisp@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 100%
+2023-08-27T11:26:03.278Z [Modules] Fetching discord_game_utils@2 from https://discord.com/api/modules/stable/discord_game_utils/2
+2023-08-27T11:26:03.279Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip
+2023-08-27T11:26:03.279Z [Modules] Installing discord_krisp@1 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip
+2023-08-27T11:26:03.513Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-08-27T11:26:03.551Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 1%
+2023-08-27T11:26:03.567Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 3%
+2023-08-27T11:26:03.569Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 4%
+2023-08-27T11:26:03.570Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 5%
+2023-08-27T11:26:03.574Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 6%
+2023-08-27T11:26:03.577Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 7%
+2023-08-27T11:26:03.581Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 8%
+2023-08-27T11:26:03.592Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 9%
+2023-08-27T11:26:03.604Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 11%
+2023-08-27T11:26:03.607Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 13%
+2023-08-27T11:26:03.609Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 14%
+2023-08-27T11:26:03.611Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 15%
+2023-08-27T11:26:03.615Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 16%
+2023-08-27T11:26:03.617Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 17%
+2023-08-27T11:26:03.629Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 19%
+2023-08-27T11:26:03.644Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 20%
+2023-08-27T11:26:03.648Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 23%
+2023-08-27T11:26:03.649Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 24%
+2023-08-27T11:26:03.653Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 25%
+2023-08-27T11:26:03.656Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 26%
+2023-08-27T11:26:03.659Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 27%
+2023-08-27T11:26:03.662Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 28%
+2023-08-27T11:26:03.666Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 29%
+2023-08-27T11:26:03.668Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 30%
+2023-08-27T11:26:03.672Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 31%
+2023-08-27T11:26:03.674Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 32%
+2023-08-27T11:26:03.678Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 33%
+2023-08-27T11:26:03.680Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 34%
+2023-08-27T11:26:03.695Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 35%
+2023-08-27T11:26:03.702Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 36%
+2023-08-27T11:26:03.706Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 39%
+2023-08-27T11:26:03.706Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 40%
+2023-08-27T11:26:03.711Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 41%
+2023-08-27T11:26:03.713Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 42%
+2023-08-27T11:26:03.719Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 44%
+2023-08-27T11:26:03.723Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 45%
+2023-08-27T11:26:03.726Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 46%
+2023-08-27T11:26:03.730Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 47%
+2023-08-27T11:26:03.732Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 48%
+2023-08-27T11:26:03.736Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 49%
+2023-08-27T11:26:03.739Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 50%
+2023-08-27T11:26:03.743Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 51%
+2023-08-27T11:26:03.746Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 52%
+2023-08-27T11:26:03.750Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 53%
+2023-08-27T11:26:03.761Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 56%
+2023-08-27T11:26:03.763Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 57%
+2023-08-27T11:26:03.767Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 58%
+2023-08-27T11:26:03.770Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 59%
+2023-08-27T11:26:03.774Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 60%
+2023-08-27T11:26:03.775Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 61%
+2023-08-27T11:26:03.779Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 62%
+2023-08-27T11:26:03.781Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 63%
+2023-08-27T11:26:03.813Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 65%
+2023-08-27T11:26:03.817Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 66%
+2023-08-27T11:26:03.819Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 67%
+2023-08-27T11:26:03.823Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 68%
+2023-08-27T11:26:03.825Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 69%
+2023-08-27T11:26:03.829Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 70%
+2023-08-27T11:26:03.832Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 71%
+2023-08-27T11:26:03.836Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 72%
+2023-08-27T11:26:03.838Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 73%
+2023-08-27T11:26:03.863Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 75%
+2023-08-27T11:26:03.867Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 77%
+2023-08-27T11:26:03.867Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 78%
+2023-08-27T11:26:03.870Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 79%
+2023-08-27T11:26:03.874Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 80%
+2023-08-27T11:26:03.876Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 81%
+2023-08-27T11:26:03.880Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 82%
+2023-08-27T11:26:03.884Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 83%
+2023-08-27T11:26:03.887Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 84%
+2023-08-27T11:26:03.891Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 85%
+2023-08-27T11:26:03.893Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 86%
+2023-08-27T11:26:03.902Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 88%
+2023-08-27T11:26:03.906Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 89%
+2023-08-27T11:26:03.907Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 90%
+2023-08-27T11:26:03.912Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 91%
+2023-08-27T11:26:03.914Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 92%
+2023-08-27T11:26:03.918Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 93%
+2023-08-27T11:26:03.920Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 94%
+2023-08-27T11:26:03.924Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 95%
+2023-08-27T11:26:03.927Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 96%
+2023-08-27T11:26:03.931Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 97%
+2023-08-27T11:26:03.933Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 98%
+2023-08-27T11:26:03.937Z [Modules] Streaming discord_game_utils@2 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip: 100%
+2023-08-27T11:26:03.937Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-08-27T11:26:03.937Z [Modules] Streaming discord_rpc@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip
+2023-08-27T11:26:03.938Z [Modules] Installing discord_game_utils@2 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_game_utils-2.zip
+2023-08-27T11:26:03.971Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-08-27T11:26:04.254Z [Modules] Streaming discord_rpc@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip: 39%
+2023-08-27T11:26:04.261Z [Modules] Streaming discord_rpc@1 to /home/natesworks/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip: 100%
+2023-08-27T11:26:04.261Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-08-27T11:26:04.261Z [Modules] Installing discord_rpc@1 from /home/natesworks/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip
+2023-08-27T11:26:04.270Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-08-27T11:42:10.067Z [Modules] Modules initializing
+2023-08-27T11:42:10.067Z [Modules] Distribution: remote
+2023-08-27T11:42:10.067Z [Modules] Host updates: enabled
+2023-08-27T11:42:10.068Z [Modules] Module updates: enabled
+2023-08-27T11:42:10.068Z [Modules] Module install path: /home/natesworks/.config/discord/0.0.28/modules
+2023-08-27T11:42:10.068Z [Modules] Module installed file path: /home/natesworks/.config/discord/0.0.28/modules/installed.json
+2023-08-27T11:42:10.068Z [Modules] Module download path: /home/natesworks/.config/discord/0.0.28/modules/pending
+2023-08-27T11:42:10.189Z [Modules] No updates to install
+2023-08-27T11:42:10.189Z [Modules] Checking for host updates.
+2023-08-27T11:42:10.209Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-27T11:42:20.213Z [Modules] Checking for host updates.
+2023-08-27T11:42:20.529Z [Modules] Host is up to date.
+2023-08-27T11:42:20.530Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:42:20.652Z [Modules] No module updates available.
+2023-08-27T11:42:22.865Z [Modules] Checking for host updates.
+2023-08-27T11:42:23.059Z [Modules] Host is up to date.
+2023-08-27T11:42:23.060Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:42:23.061Z [Modules] No module updates available.
+2023-08-27T11:45:13.887Z [Modules] Modules initializing
+2023-08-27T11:45:13.887Z [Modules] Distribution: remote
+2023-08-27T11:45:13.887Z [Modules] Host updates: enabled
+2023-08-27T11:45:13.887Z [Modules] Module updates: enabled
+2023-08-27T11:45:13.887Z [Modules] Module install path: /home/natesworks/.config/discord/0.0.28/modules
+2023-08-27T11:45:13.887Z [Modules] Module installed file path: /home/natesworks/.config/discord/0.0.28/modules/installed.json
+2023-08-27T11:45:13.887Z [Modules] Module download path: /home/natesworks/.config/discord/0.0.28/modules/pending
+2023-08-27T11:45:13.999Z [Modules] No updates to install
+2023-08-27T11:45:14.000Z [Modules] Checking for host updates.
+2023-08-27T11:45:14.272Z [Modules] Host is up to date.
+2023-08-27T11:45:14.272Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:45:14.321Z [Modules] No module updates available.
+2023-08-27T11:45:15.923Z [Modules] Checking for host updates.
+2023-08-27T11:45:16.124Z [Modules] Host is up to date.
+2023-08-27T11:45:16.124Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T11:45:16.125Z [Modules] No module updates available.
