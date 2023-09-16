@@ -144,3 +144,8 @@ sddm
 sddm-theme-tokyo-night
 systemsettings
 yaml-cpp
+mkinitcpio-openswap
+ckbcomp
+hwinfo
+qt5-xmlpatterns
+libpwquality
