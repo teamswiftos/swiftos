@@ -143,5 +143,3 @@ plasma-workspace
 sddm
 sddm-theme-tokyo-night
 systemsettings
-libyaml
-libyaml-cpp
